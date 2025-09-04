@@ -8,15 +8,13 @@ For better understanding go through the project folder seperately.
 
 ## 1. Smart Resume Parser
 
-An AI-powered system that automates resume parsing, extracts structured candidate information, and provides an intelligent scoring system.
+An AI-powered system that automates resume parsing, extracts structured candidate information.
 
 🔹 Features
 
 Upload resumes in PDF/DOCX format.
 
 Extracts Contact Info, Skills, Education, Experience, Projects, Certificates, Links, and Summary.
-
-AI-Powered Scoring System that evaluates resumes based on Skills, Education, Projects, and Experience.
 
 Interactive Streamlit Dashboard with a professional design.
 
