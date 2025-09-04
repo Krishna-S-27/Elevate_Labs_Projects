@@ -12,7 +12,7 @@ For cloud deployed code repository visit **Smart-Resume-Parser**: [Repository](h
 ✅ Extracts **Name, Email, Phone, Skills, Education, Experience, Projects, Certificates, Links, and Summary**. 
 ✅ Modern **Streamlit Dashboard** with custom UI/UX  
 ✅ Export parsed results into **JSON & CSV**  
-✅ Backend built with **FastAPI**, integrated with **OpenRouter (Mistral-7B)**  
+✅ Backend built with **FastAPI**, integrated with **OpenRouter (gpt-oss-120b)**  
 ✅ Deployable on **Render Cloud**  
 
 ---
