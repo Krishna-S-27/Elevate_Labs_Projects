@@ -73,7 +73,7 @@ This makes it useful for:
 
 **Backend:**  
 - FastAPI (Python)  
-- OpenRouter API (Mistral-7B Instruct model)  
+- OpenRouter API (gpt-oss-120b Instruct model)  
 - PyPDF2, python-docx (Resume text extraction)  
 
 **Data Handling:**  
