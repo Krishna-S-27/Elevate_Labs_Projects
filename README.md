@@ -2,7 +2,7 @@
 
 This repository contains two end-to-end AI-powered applications that demonstrate the integration of Artificial Intelligence, Backend APIs, Frontend Dashboards, and Cloud Deployment.
 
-For better understanding go through the project folder
+For better understanding go through the project folder seperately.
 
 ## 📌 Projects Overview.
 
