@@ -1,4 +1,3 @@
-// Poor style: long method, deeply nested ifs, unused imports
 import java.util.List;
 
 public class BadClass {
@@ -23,6 +22,5 @@ public class BadClass {
     }
 
     public void unusedMethod() {
-        // never called
     }
 }
