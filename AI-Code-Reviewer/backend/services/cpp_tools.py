@@ -4,10 +4,8 @@ from utils.file_handler import save_code_to_tempfile
 
 
 def analyze(code, language=None):
-    # Save temp file
     temp_path = save_code_to_tempfile(code, ".cpp")
 
-    # ---------- Lint with cpplint ----------
     cpplint_path, msg = tool_or_msg(
         "cpplint",
         "cpplint not found. Install with: pip install cpplint"
@@ -21,7 +19,6 @@ def analyze(code, language=None):
     else:
         lint_list.append(msg)
 
-    # ---------- Complexity with lizard ----------
     lizard_path, msg2 = tool_or_msg(
         "lizard",
         "lizard not found. Install with: pip install lizard"
@@ -40,7 +37,6 @@ def analyze(code, language=None):
 
 
 def format_code(code, language=None):
-    # No auto-formatter integrated yet
     return {
         "original": code,
         "formatted": code,
