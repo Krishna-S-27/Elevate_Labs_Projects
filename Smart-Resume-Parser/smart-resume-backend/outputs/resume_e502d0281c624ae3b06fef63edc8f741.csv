@@ -1,0 +1,31 @@
+raw_output," {
+  ""name"": ""Olivia Brown"",
+  ""email"": ""Email address (not provided in text)"",
+  ""phone"": ""Not provided in text"",
+  ""links"": [
+    ""LinkedIn profile (can be extracted if URL is provided in another section of the text)""
+  ],
+  ""skills"": [
+    ""SIEM"",
+    ""Network Security"",
+    ""Python"",
+    ""Penetration Testing"",
+    ""Risk Assessment""
+  ],
+  ""education"": [
+    // Education details not provided in text
+  ],
+  ""experience"": [
+    ""Cybersecurity Analyst: - Monitored and analyzed security events using SIEM tools."",
+    ""Cybersecurity Analyst: - Performed penetration testing to identify vulnerabilities."",
+    ""Cybersecurity Analyst: - Developed incident response protocols for financial systems.""
+  ],
+  ""sections"": {
+    ""projects"": [], // Projects details not provided in text
+    ""achievements"": [], // Achievement details not provided in text
+    ""certificates"": [], // Certificate details not provided in text
+    ""hobbies"": [], // Hobbies not provided in text
+    ""profiles"": [] // Profile details not provided in text
+  },
+  ""summary"": ""Cybersecurity professional skilled in threat detection, incident response, and implementing security policies.""
+}"

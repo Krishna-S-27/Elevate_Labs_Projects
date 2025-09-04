@@ -1,0 +1,70 @@
+{
+  "name": "Krishna Shalawadi",
+  "email": "Email provided",
+  "phone": "+91-8296949050",
+  "links": [
+    "GitHub",
+    "LinkedIn"
+  ],
+  "skills": [
+    "Python",
+    "JavaScript",
+    "MySQL",
+    "ReactJS",
+    "AutoCAD",
+    "MATLAB",
+    "Tableau",
+    "Power BI",
+    "Git",
+    "Streamlit",
+    "Scikit-learn",
+    "PennyLane"
+  ],
+  "education": [
+    "Rita, B.E. in Information Science and Engineering; CGPA: 7.93, 2022 – Present",
+    "Narayana PU College Bangalore, Karnataka, 2ndPUC, PCMC: 93.5%, May 2021 – May 2022"
+  ],
+  "experience": [
+    "Led academic research integrating traditional and quantum ML to solve real-world problems.",
+    "[Team Leader and Lead Developer (ML & QML) for Design and Implementation of Brain Tumor Detection and Classification using MRI Images with Quantum Machine Learning]"
+  ],
+  "summary": "Enthusiastic and goal-driven Information Science undergraduate with hands-on experience in software development and machine learning applications. Proficient in Python, JavaScript, web development. Eager to contribute to dynamic teams with innovative, impactful solutions.",
+  "sections": {
+    "projects": [
+      {
+        "name": "House Price Prediction by Machine Learning",
+        "description": "–Developed a supervised machine learning model to predict house prices based on features such as number of bedrooms, square footage, and location.\n–Applied and compared multiple regression models including Linear Regression, Ridge, Lasso, and Random Forest.\n–Achieved high prediction accuracy and visualized model performance using error metrics and plots.\n– Tech Stack: Python, Pandas, NumPy, Matplotlib, Scikit-learn – Github Repository: House Price Prediction",
+        "techeffects": [
+          "Python",
+          "Pandas",
+          "NumPy",
+          "Matplotlib",
+          "Scikit-learn"
+        ]
+      },
+      {
+        "name": "Design and Implementation of Brain Tumor Detection and Classification using MRI Images with Quantum Machine Learning",
+        "description": "–Role: Team Leader and Lead Developer (ML & QML).\n–Developed a hybrid system combining traditional machine learning (CNN, Random Forest) and quantum machine learning (VQC, QCNN, QNN) models for MRI-based brain tumor classification.\n–Led a team of 4 for a university-assessed mini project, handling both classical and quantum algorithm implementation.\n–Achieved 96% accuracy with CNN and 91% with Random Forest in classical approach; QCNN achieved ∼59% as part of ongoing QML experimentation.\n–Authored a research analysis paper comparing model performance.\n–Tech Stack: Python, Streamlit, Scikit-learn, PennyLane – GitHub: Classical, Quantum",
+        "techeffects": [
+          "Python",
+          "Streamlit",
+          "Scikit-learn",
+          "PennyLane"
+        ]
+      },
+      {
+        "name": "DISCRETA – Discrete Math Game",
+        "description": "–Created educational games for set theory and graph concepts.\n–Implemented “Relation Game” and Warshall’s Algorithm visualization for transitive closure.\n– Tech Stack: Python, HTML, CSS, JavaScript, ReactJS – GitHub: GameCraft, Warshall Algo"
+      }
+    ],
+    "achievements": [],
+    "certificates": [],
+    "hobbies": [
+      "Volleyball",
+      "Cricket",
+      "Singing",
+      "Traveling"
+    ],
+    "profiles": []
+  }
+}

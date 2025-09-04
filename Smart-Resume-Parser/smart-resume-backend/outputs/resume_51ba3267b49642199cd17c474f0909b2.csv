@@ -1,0 +1,21 @@
+raw_output," Here is the structured information extracted from the provided resume text:
+
+```json
+{
+  ""name"": ""Krishna Shalawadi"",
+  ""email"": ""Email (from the resume text)"",
+  ""phone"": ""+91-8296949050"",
+  ""links"": [""GitHub"", ""LinkedIn""],
+  ""skills"": [""Python"", ""JavaScript"", ""MySQL"", ""ReactJS"", ""AutoCAD"", ""MATLAB"", ""Tableau"", ""Power BI"", ""Git"", ""Streamlit"", ""Scikit-learn"", ""PennyLane""],
+  ""education"": [""B.E. in Information Science and Engineering, Ramaiah Institute of Technology Bangalore, India, 2022 – Present"", ""2ndPUC, PCMC: 93.5%, Narayana PU College Bangalore, Karnataka, May 2021 – May 2022""],
+  ""experience"": [""Led academic research integrating traditional and quantum ML to solve real-world problems."", ""Team Leader and Lead Developer (ML & QML) for Brain Tumor Detection and Classification using MRI Images with Quantum Machine Learning.""],
+  ""sections"": {
+      ""projects"": [""House Price Prediction by Machine Learning"", ""Design and Implementation of Brain Tumor Detection and Classification using MRI Images with Quantum Machine Learning"", ""DISCRETA – Discrete Math Game""],
+      ""achievements"": [""Achieved high prediction accuracy and visualized model performance using error metrics and plots for House Price Prediction."", ""Achieved 96% accuracy with CNN and 91% with Random Forest in classical approach for Brain Tumor Detection and Classification."", ""Authored a research analysis paper comparing model performance for Brain Tumor Detection and Classification.""],
+      ""certificates"": [],
+      ""hobbies"": [""Volleyball"", ""Cricket"", ""Singing"", ""Traveling""],
+      ""profiles"": [""Volunteer and Poster Designer (NSS, RIT)""]
+  },
+  ""summary"": ""Enthusiastic and goal-driven Information Science undergraduate with hands-on experience in software development and machine learning applications. Proficient in Python, JavaScript, web development. Eager to contribute to dynamic teams with innovative, impactful solutions.""
+}
+```"

@@ -1,0 +1,9 @@
+name,Alice Johnson
+email,Email address (if provided)
+phone,Phone number (if provided)
+links,"LinkedIn: URL, GitHub: URL, Portfolio: URL"
+skills,"Python, Django, React, AWS, Docker"
+education,"Degree (e.g., Bachelor's, Master's, Ph.D.) from College, Year (e.g., 2016)"
+experience,"{'role': 'Software Engineer', 'organization': 'Not provided', 'duration': '5+ years', 'tasks': ['Developed and deployed cloud-native applications on AWS', 'Built scalable REST APIs with Django and FastAPI', 'Led a team of 4 engineers to deliver enterprise solutions']}"
+sections,"{""projects"": [], ""achievements"": [], ""certificates"": [], ""hobbies"": [], ""profiles"": []}"
+summary,"2-3 sentence professional summary: Passionate software engineer with 5+ years of experience in full-stack development, cloud solutions, and scalable microservices."

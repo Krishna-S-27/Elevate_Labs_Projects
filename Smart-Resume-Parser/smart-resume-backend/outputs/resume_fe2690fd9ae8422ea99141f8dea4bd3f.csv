@@ -1,0 +1,83 @@
+raw_output," Here is the structured information extracted from the provided resume text:
+
+```json
+{
+  ""name"": ""Krishna Shalawadi"",
+  ""email"": ""krishnashalawadi27@gmail.com"",
+  ""phone"": ""+91-8296949050"",
+  ""links"": [
+    ""linkedin.com/in/krishnashalawadi"",
+    ""github.com/Krishna-S-27""
+  ],
+  ""skills"": [
+    ""Python"",
+    ""JavaScript"",
+    ""Web Development"",
+    ""AutoCAD"",
+    ""MATLAB"",
+    ""Tableau"",
+    ""Power BI"",
+    ""Git"",
+    ""Streamlit"",
+    ""MySQL"",
+    ""ReactJS"",
+    ""Scikit-learn"",
+    ""PennyLane"",
+    ""Linear Regression"",
+    ""Ridge Regression"",
+    ""XGBoost"",
+    ""Gradient Boost"",
+    ""Random Forest Regression"",
+    ""Machine Learning""
+  ],
+  ""education"": [
+    {
+      ""Degree"": ""B.E. in Information Science and Engineering"",
+      ""College"": ""M S Ramaiah Institute of Technology Bangalore, India"",
+      ""Year"": ""2022 – Present""
+    },
+    {
+      ""Level"": ""2nd PUC, Science (PCMC)"",
+      ""College"": ""Narayana PU College Bangalore, Karnataka"",
+      ""Year"": ""May 2021 – May 2022""
+    }
+  ],
+  ""experience"": [],
+  ""sections"": {
+    ""projects"": [
+      {
+        ""Name"": ""House Price Prediction using Machine Learning"",
+        ""Descriptions"": [
+          ""Developed a regression model using the King County dataset to predict house prices based on features like bedrooms, area, location, and other factors."",
+          ""Applied and compared Linear, Ridge, XGBoost, Gradient Boost and Random Forest Regression algorithms using Scikit-learn; visualized model performance with metrics and plots."",
+          ""Tech Stack: Python, Pandas, NumPy, Matplotlib, Scikit-learn"",
+          ""GitHub: House Price Prediction""
+        ]
+      },
+      {
+        ""Name"": ""Brain Tumor Detection using Quantum Machine Learning"",
+        ""Descriptions"": [
+          ""Led a team of 4 to build a hybrid system combining classical ML (SVM, CNN, RF) and quantum ML (VQC, QCNN, QNN) for medical image classification."",
+          ""Achieved 96% accuracy using CNN; authored a comparative analysis paper on classical vs quantum models."",
+          ""Tech Stack: Python, Streamlit, Scikit-learn, PennyLane"",
+          ""GitHub: Classical, Quantum""
+        ]
+      },
+      {
+        ""Name"": ""DISCRETA – Discrete Mathematics Game Project"",
+        ""Descriptions"": [
+          ""Developed interactive learning games based on set theory and graph concepts for educational use."",
+          ""Built logic for the ‘Relation Game’ and visualized Warshall’s Algorithm for transitive closure."",
+          ""Tech Stack: Python, HTML, CSS, JavaScript, ReactJS"",
+          ""GitHub: KLM GameCraft, Warshall Algorithm""
+        ]
+      }
+    ],
+    ""achievements"": [],
+    ""certificates"": [],
+    ""hobbies"": [""Volleyball"", ""Cricket"", ""Singing"", ""Traveling""],
+    ""profiles"": []
+  },
+  ""summary"": ""Enthusiastic and goal-driven Information Science undergraduate with hands-on experience in software development and machine learning applications. Proficient in Python, JavaScript, web development. Demonstrated leadership as a project lead in academic research, integrating traditional and quantum machine learning to solve real-world problems. Eager to contribute to dynamic tech teams and apply innovative thinking to develop impactful software or data-driven solutions.""
+}
+```"

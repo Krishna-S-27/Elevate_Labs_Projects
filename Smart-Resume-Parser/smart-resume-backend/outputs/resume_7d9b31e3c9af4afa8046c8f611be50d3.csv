@@ -1,0 +1,9 @@
+name,Krishna Shalawadi
+email,krishnashalawadi27@gmail.com
+phone,+91 8296949050
+links,"GitHub, LinkedIn"
+skills,"Python, JavaScript, MySQL, MongoDB, ReactJS, Scikit-learn, PennyLane, AutoCAD, MATLAB, Tableau, Power BI, Git, Streamlit"
+education,"{'Degree': 'B.E. in Information Science and Engineering', 'College': 'Ramaiah Institute of Technology, Bangalore', 'Year': '2022 – Present', 'CGPA': '8.08'}, {'School': 'Narayana PU College, Bangalore', 'Percentage': '93.5%', 'Completed': 'May 2022'}"
+experience,
+sections,"{""projects"": [{""Title"": ""House Price Prediction using Machine Learning"", ""Description"": ""Built a predictive model for house prices based on features using Python, compared different models, and evaluated performance using various metrics."", ""TechStack"": [""Python"", ""Pandas"", ""NumPy"", ""Matplotlib"", ""Scikit-learn""], ""GithubLink"": ""House Price Prediction""}, {""Title"": ""Brain Tumor Detection and Classification using MRI & Quantum ML"", ""Description"": ""Led development of hybrid classical and quantum ML models in MRI brain tumor classification, built and compared classical models, experimented with quantum models, and authored a research paper on model performance."", ""TechStack"": [""Python"", ""Streamlit"", ""Scikit-learn"", ""PennyLane""], ""GithubLink"": ""Classical, Quantum""}], ""achievements"": [], ""certificates"": [], ""hobbies"": [""Volleyball"", ""Cricket"", ""Singing"", ""Traveling""], ""profiles"": []}"
+summary,"Information Science undergraduate with hands-on experience in software development, machine learning, and quantum computing. Proficient in Python, JavaScript, and ReactJS, with a strong track record of leading technical projects and research, and skilled in building data-driven solutions in team environments."

@@ -1,0 +1,57 @@
+raw_output," Here is the structured information extracted from the provided resume:
+
+```json
+{
+  ""name"": ""Krishna Shalawadi"",
+  ""email"": ""krishna.shalawadi@example.com"",
+  ""phone"": ""+91 9876543210"",
+  ""links"": [
+    ""https://github.com/krishnadev"",
+    ""https://linkedin.com/in/krishnadev""
+  ],
+  ""skills"": [""Python"", ""JavaScript"", ""C++"", ""HTML"", ""CSS"", ""React"", ""Node.js"", ""FastAPI"", ""MySQL"", ""MongoDB"", ""Git"", ""Docker"", ""Kubernetes"", ""AWS"", ""Tableau""],
+  ""education"": [
+    {
+      ""degree"": ""B.E."",
+      ""subject"": ""Information Science and Engineering"",
+      ""institution"": ""Ramaiah Institute of Technology, Bangalore"",
+      ""year"": ""2022 – Present"",
+      ""cgpa"": ""8.2""
+    },
+    {
+      ""degree"": ""Pre-University"",
+      ""institution"": ""Narayana PU College, Bengaluru"",
+      ""year"": ""2020 – 2022""
+    }
+  ],
+  ""experience"": [
+    {
+      ""role"": ""Software Engineering Intern"",
+      ""company"": ""Accenture"",
+      ""details"": [
+        ""Built automation scripts to streamline CI/CD pipelines using GitHub Actions and Docker."",
+        ""Collaborated with ML team to optimize data preprocessing pipelines.""
+      ]
+    }
+  ],
+  ""sections"": {
+    ""projects"": [
+      ""Smart Resume Parser: A web app using NLP to extract structured data from resumes."",
+      ""Fake News Detector: Machine learning model to classify news articles as fake or genuine."",
+      ""Brain Tumor Detection: Deep learning model trained on MRI scans with 92% accuracy.""
+    ],
+    ""achievements"": [
+      ""Winner of College Hackathon 2024"",
+      ""Published research paper on 'Quantum Machine Learning for Healthcare' in IJCA Journal.""
+    ],
+    ""certificates"": [
+      ""AWS Certified Developer – Associate"",
+      ""Accenture Developer Virtual Experience"",
+      ""Kaggle ML Expert Badge""
+    ],
+    ""hobbies"": [""Blogging about AI & Technology"", ""Playing Chess"", ""Trekking""],
+    ""profiles"": []
+  },
+  ""summary"": ""Enthusiastic Information Science undergraduate with hands-on experience in full-stack development, machine learning, and DevOps. Strong problem-solving skills with proven ability to deliver scalable software solutions.""
+}
+```"

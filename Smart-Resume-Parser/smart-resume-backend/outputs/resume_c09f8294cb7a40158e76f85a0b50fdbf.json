@@ -1,0 +1,134 @@
+{
+  "name": "Krishna Shalawadi",
+  "email": "krishnashalawadi27@gmail.com",
+  "phone": "+918296949050",
+  "links": [
+    "https://github.com/Krishna-S-27/House_Price_Prediction",
+    "https://github.com/Krishna-S-27/Brain_Tumor_Detection_MachineLearning.git",
+    "https://github.com/Krishna-S-27/Brain_Tumor_Detection_QuantumMachineLearning.git",
+    "https://github.com/Keerthan0811/KLM-GameCraft",
+    "https://github.com/Krishna-S-27/Warshall_Algorithm_SD"
+  ],
+  "skills": [
+    "Python",
+    "Java",
+    "JavaScript",
+    "ReactJS",
+    "HTML/CSS",
+    "AutoCAD",
+    "MATLAB",
+    "Tableau",
+    "Power BI",
+    "MYSQL",
+    "C",
+    "Scikit-learn",
+    "Streamlit",
+    "PennyLane"
+  ],
+  "education": [
+    {
+      "degree": "B.E in Information Science and Engineering",
+      "college": "M S Ramaiah Institute of Technology",
+      "year": "Dec 2022 - Present",
+      "cgpa": "7.93"
+    },
+    {
+      "degree": "2nd PUC, Science (PCM C)",
+      "school": "Narayana PU College",
+      "location": "Cheemasandra, Bangalore, Karnataka",
+      "year": "May 2021 - May 2022",
+      "scored_percentage": "93.5%"
+    },
+    {
+      "degree": "10th CBSE Board",
+      "school": "Sri Rajeshwari Vidyaniketan",
+      "location": "Hulkoti, Gadag,Karnataka",
+      "year": "May 2019 - April 2020",
+      "scored_percentage": "78.8%"
+    }
+  ],
+  "experience": [
+    {
+      "role": "ML Developer and Analyst",
+      "project": "House Price Prediction using Machine Learning",
+      "tech_stack": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Scikit-learn"
+      ],
+      "description": "Developed a supervised machine learning model to predict house prices based on various features like number of bedrooms, square footage, and location. Utilized the publicly available King County, USA dataset from Kaggle for model training and evaluation."
+    },
+    {
+      "role": "Team Leader and Lead Developer (ML & QML)",
+      "project": "Design and Implementation of Brain Tumor Detection and Classification using MRI Images with Quantum Machine Learning",
+      "tech_stack": [
+        "Python",
+        "Streamlit",
+        "Scikit-learn",
+        "PennyLane"
+      ],
+      "description": "Developed a hybrid system combining Traditional Machine Learning (CNN, Random Forest) and Quantum Machine Learning (VQC, QCNN, QNN) models for brain tumor classification using MRI images."
+    },
+    {
+      "role": "Logic Designer and Frontend Developer",
+      "project": "Discreta – Departmental Collaborative Project on Discrete Mathematics",
+      "tech_stack": [
+        "Python",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "description": "Collaborated with peers as part of a departmental initiative to create educational games based on discrete mathematics concepts. Designed and developed the logic engine for the ‘Relation Game,' a multiple-choice-based learning tool focused on set relations and properties."
+    }
+  ],
+  "sections": {
+    "projects": [
+      {
+        "project": "House Price Prediction using Machine Learning",
+        "tech_stack": [
+          "Python",
+          "Pandas",
+          "NumPy",
+          "Matplotlib",
+          "Scikit-learn"
+        ],
+        "description": "Developed a supervised machine learning model to predict house prices based on various features like number of bedrooms, square footage, and location. Utilized the publicly available King County, USA dataset from Kaggle for model training and evaluation."
+      },
+      {
+        "project": "Design and Implementation of Brain Tumor Detection and Classification using MRI Images with Quantum Machine Learning",
+        "tech_stack": [
+          "Python",
+          "Streamlit",
+          "Scikit-learn",
+          "PennyLane"
+        ],
+        "description": "Developed a hybrid system combining Traditional Machine Learning (CNN, Random Forest) and Quantum Machine Learning (VQC, QCNN, QNN) models for brain tumor classification using MRI images."
+      },
+      {
+        "project": "Discreta – Departmental Collaborative Project on Discrete Mathematics",
+        "tech_stack": [
+          "Python",
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "description": "Collaborated with peers as part of a departmental initiative to create educational games based on discrete mathematics concepts. Designed and developed the logic engine for the ‘Relation Game,' a multiple-choice-based learning tool focused on set relations and properties."
+      }
+    ],
+    "achievements": [],
+    "certificates": [],
+    "hobbies": [
+      "English",
+      "Kannada",
+      "Hindi",
+      "Volleyball",
+      "Cricket",
+      "Singing",
+      "Traveling"
+    ],
+    "profiles": []
+  },
+  "summary": "Enthusiastic and goal-driven Information Science undergraduate with hands-on experience in software development and machine learning applications. Adept in Python, Java, web development (ReactJS, HTML/CSS), and data tools like Tableau and Power BI. Demonstrated leadership as a project lead in academic research, combining traditional and quantum machine learning for real-world problems."
+}

@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+flake8
+black
+radon
+reportlab
+pandas
+python-multipart
+cpplint
+lizard
+requests
+python-dotenv

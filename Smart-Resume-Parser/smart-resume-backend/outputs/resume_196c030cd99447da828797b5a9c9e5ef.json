@@ -1,0 +1,55 @@
+{
+  "name": "Krishna Shalawadi",
+  "email": "krishna.shalawadi@example.com",
+  "phone": "+91 9876543210",
+  "links": [
+    "https://github.com/krishnadev",
+    "https://linkedin.com/in/krishnadev"
+  ],
+  "skills": [
+    "Python",
+    "JavaScript",
+    "C++",
+    "HTML",
+    "CSS",
+    "React",
+    "Node.js",
+    "FastAPI",
+    "MySQL",
+    "MongoDB",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "Tableau"
+  ],
+  "education": [
+    "B.E. in Information Science and Engineering, Ramaiah Institute of Technology, Bangalore (2022 – Present)",
+    "Pre-University, Narayana PU College, Bengaluru (2020 – 2022)"
+  ],
+  "experience": [
+    "Software Engineering Intern, Accenture"
+  ],
+  "sections": {
+    "projects": [
+      "Smart Resume Parser",
+      "Fake News Detector",
+      "Brain Tumor Detection"
+    ],
+    "achievements": [
+      "Winner of College Hackathon 2024",
+      "Published research paper on 'Quantum Machine Learning for Healthcare' in IJCA Journal"
+    ],
+    "certificates": [
+      "AWS Certified Developer – Associate",
+      "Accenture Developer Virtual Experience",
+      "Kaggle ML Expert Badge"
+    ],
+    "hobbies": [
+      "Blogging about AI & Technology",
+      "Playing Chess",
+      "Trekking"
+    ]
+  },
+  "summary": "Enthusiastic Information Science undergraduate with hands-on experience in full-stack development, machine learning, and DevOps. Strong problem-solving skills with proven ability to deliver scalable software solutions."
+}

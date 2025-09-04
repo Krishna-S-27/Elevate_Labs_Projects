@@ -1,0 +1,40 @@
+{
+  "name": "Daniel Lee",
+  "email": "Email address from resume (not provided for privacy)",
+  "phone": "Phone number (not provided in the text)",
+  "links": [
+    "LinkedIn: URL from resume (not provided for privacy)"
+  ],
+  "skills": [
+    "Python",
+    "Java",
+    "Figma",
+    "Adobe XD",
+    "Sketch",
+    "Prototyping",
+    "Design Thinking"
+  ],
+  "education": [
+    "Degree, College, Year (not provided in the text)"
+  ],
+  "experience": [
+    {
+      "role": "UI/UX Designer",
+      "company": "SaaS applications",
+      "key_points": [
+        "Designed user interfaces for SaaS applications",
+        "Increased engagement by 30%",
+        "Conducted usability testing and user research sessions",
+        "Collaborated with developers to ensure design fidelity"
+      ]
+    }
+  ],
+  "sections": {
+    "projects": [],
+    "achievements": [],
+    "certificates": [],
+    "hobbies": [],
+    "profiles": []
+  },
+  "summary": "Creative UI/UX designer with strong background in designing intuitive, user-friendly applications and websites."
+}
