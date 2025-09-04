@@ -7,11 +7,8 @@ def analyze(code, language=None):
     Analyze JavaScript/TypeScript code using ESLint via stdin.
     Avoids 'outside of base path' issues with temp files.
     """
-
-    # Decide parser
     ext = ".ts" if language == "typescript" else ".js"
 
-    # Ensure ESLint is available
     eslint_path, msg = tool_or_msg(
         "eslint",
         "ESLint not found on PATH. Install Node + ESLint (npm install -D eslint)."
@@ -19,13 +16,12 @@ def analyze(code, language=None):
     if msg:
         return {"lint": [msg], "complexity": "N/A"}
 
-    # Run ESLint with stdin
     code_rc, out, err = run_cmd([
         eslint_path,
         "-c", "eslint.config.mjs",
         "-f", "json",
         "--stdin",
-        "--stdin-filename", f"dummy{ext}"   # tells ESLint the file type
+        "--stdin-filename", f"dummy{ext}" 
     ], input_text=code)
 
     lint_list = []
@@ -52,7 +48,6 @@ def format_code(code, language=None):
     """
     Format JavaScript/TypeScript code using Prettier.
     """
-
     prettier_path = which("prettier")
     if not prettier_path:
         return {
