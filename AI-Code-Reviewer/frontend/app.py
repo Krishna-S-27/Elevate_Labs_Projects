@@ -1,18 +1,4 @@
-# app.py — Streamlit frontend for AI-Code-Reviewer
-# ------------------------------------------------
-# Features
-# - Professional single-page UI with sidebar controls
-# - Paste code OR upload a file
-# - Calls your FastAPI backend: /api/analyze, /api/report
-# - Shows AI review (Java/Go) and linter output (JS/C++/Python) elegantly
-# - Lets you download the generated PDF report
-#
-# How to run:
-#   1) pip install -r requirements.txt  (streamlit, requests, python-dotenv)
-#   2) streamlit run app.py
-#
 # Optional: create a .env in the same folder with BACKEND_URL=http://127.0.0.1:8000
-
 import io
 import os
 import time
@@ -27,9 +13,6 @@ try:
 except Exception:
     pass
 
-# ----------------------------------
-# Config
-# ----------------------------------
 BACKEND_URL = os.getenv("BACKEND_URL", "http://127.0.0.1:8000")
 ANALYZE_ENDPOINT = f"{BACKEND_URL}/api/analyze"
 REPORT_ENDPOINT = f"{BACKEND_URL}/api/report"
@@ -50,9 +33,6 @@ LANG_LABELS = {
     "go": "Go (AI-only)",
 }
 
-# ----------------------------------
-# Styling (CSS)
-# ----------------------------------
 st.set_page_config(page_title="AI-Code-Reviewer", page_icon="🧠", layout="wide")
 
 CUSTOM_CSS = """
@@ -127,9 +107,6 @@ pre, code, .stCodeBlock {
 
 st.markdown(f"<style>{CUSTOM_CSS}</style>", unsafe_allow_html=True)
 
-# ----------------------------------
-# Small helpers
-# ----------------------------------
 
 def _multipart_for_code(code: str, filename: str = "code.txt") -> Tuple[Dict[str, Any], Dict[str, Any]]:
     files = {
@@ -170,15 +147,12 @@ def download_button_bytes(filename: str, data: bytes, mime: str = "application/o
     href = f'<a href="data:{mime};base64,{b64}" download="{filename}">📄 Download {filename}</a>'
     st.markdown(href, unsafe_allow_html=True)
 
-# ----------------------------------
-# Sidebar
-# ----------------------------------
+
 st.sidebar.title("🧠 AI-Code-Reviewer")
 st.sidebar.caption("Frontend for your FastAPI backend")
 
 selected_lang = st.sidebar.selectbox("Language", SUPPORTED_LANGS, format_func=lambda x: LANG_LABELS.get(x, x))
 
-# ✅ Only Analyze & Report
 mode = st.sidebar.radio("Action", ["Analyze", "Report"], index=0)
 
 st.sidebar.markdown("---")
@@ -197,18 +171,12 @@ if "_BACKEND_URL" in st.session_state:
 st.sidebar.markdown("---")
 st.sidebar.write("Tip: Paste code below or upload a file.")
 
-# ----------------------------------
-# Header
-# ----------------------------------
 st.title("AI-Code-Reviewer")
 st.write(
     "Upload code or paste it below, choose a language, and run analysis. "
     "Java & Go use AI-only review. JS/Python/C++ show linter output if tools are present."
 )
 
-# ----------------------------------
-# Input area: paste or upload
-# ----------------------------------
 col1, col2 = st.columns([2, 1], gap="large")
 with col1:
     code_input = st.text_area(
@@ -219,19 +187,14 @@ with col1:
 with col2:
     uploaded = st.file_uploader("...or upload a file", type=["py", "js", "java", "cpp", "cc", "c", "go", "txt"])
 
-# ----------------------------------
-# Action buttons
-# ----------------------------------
+
 colA, colB = st.columns([1, 1])
 run_clicked = False
 if mode == "Analyze":
     run_clicked = colA.button("🔍 Analyze", use_container_width=True)
-else:  # Report
+else:
     run_clicked = colB.button("📄 Generate Report (PDF)", use_container_width=True)
 
-# ----------------------------------
-# Execute
-# ----------------------------------
 if run_clicked:
     if uploaded is not None:
         data, files = _multipart_for_upload(uploaded)
@@ -249,7 +212,7 @@ if run_clicked:
         start = time.time()
         if mode == "Analyze":
             result = call_backend(ANALYZE_ENDPOINT, selected_lang, files)
-        else:  # Report
+        else:
             result = call_backend(REPORT_ENDPOINT, selected_lang, files)
         elapsed = time.time() - start
 
@@ -259,9 +222,6 @@ if run_clicked:
     )
     st.markdown("\n")
 
-    # ------------------------------
-    # Handle PDF (report endpoint)
-    # ------------------------------
     if mode == "Report":
         if "_raw" in result and isinstance(result.get("_raw"), (bytes, bytearray)):
             st.success("✅ Report generated successfully.")
@@ -276,10 +236,6 @@ if run_clicked:
             st.json(result)
         st.stop()
 
-
-    # ------------------------------
-    # Show analysis results
-    # ------------------------------
     if "error" in result:
         st.error(result["error"])
         st.stop()
@@ -310,8 +266,5 @@ if run_clicked:
             else:
                 st.info("No complexity output.")
 
-# ----------------------------------
-# Footer
-# ----------------------------------
 st.markdown("---")
 st.caption("© AI-Code-Reviewer — Streamlit UI. Uses your local FastAPI backend.")
