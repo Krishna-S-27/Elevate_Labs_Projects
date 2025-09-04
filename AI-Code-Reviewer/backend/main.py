@@ -3,7 +3,6 @@ from routers import analysis
 
 app = FastAPI(title="AI Code Reviewer API")
 
-# Register routers
 app.include_router(analysis.router)
 
 @app.get("/")
