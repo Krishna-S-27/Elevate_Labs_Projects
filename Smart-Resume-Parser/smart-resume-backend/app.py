@@ -36,22 +36,17 @@ async def upload_resume(file: UploadFile = File(...)):
         raise HTTPException(status_code=400, detail="Only PDF or DOCX supported.")
 
     file_bytes = await file.read()
-
-    # Step 1: Extract text
     raw_text = extract_text_from_upload(filename, file_bytes)
     if not raw_text.strip():
         raise HTTPException(status_code=422, detail="No text found in file.")
 
-    # Step 2: Clean text
     text = clean_text(raw_text)
 
-    # Step 3: Parse with AI
     try:
         parsed = parse_resume_with_ai(text)
     except Exception as e:
         raise HTTPException(status_code=500, detail="AI parsing error: " + str(e))
 
-    # Step 5: Save results
     export_id = uuid.uuid4().hex
     try:
         save_json(parsed, export_id)
