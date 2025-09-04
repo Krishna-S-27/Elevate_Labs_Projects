@@ -3,7 +3,6 @@
 AI-Code-Reviewer is a **Hybrid Ai powered multi-language automated code review platform** that helps developers analyze, review, and improve their code efficiently.
 
 For cloud deployed repository vew **Ai-Code-Reviewer**: [Repository](https://github.com/Krishna-S-27/Ai-Code-Reviewer)
-
 ### ✨ Features  
 - ✔️ **Linting**: Python, JavaScript, C/C++  
 - ✔️ **Complexity Analysis**: Understand code maintainability  
