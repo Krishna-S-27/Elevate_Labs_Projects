@@ -2,7 +2,6 @@ import os
 import requests
 from dotenv import load_dotenv
 
-# Load environment variables
 load_dotenv()
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
@@ -16,7 +15,6 @@ def run_ai_reviewer(code: str, language: str = "java"):
         "Content-Type": "application/json"
     }
 
-    # Use your chosen model: gpt-oss-20b (free)
     data = {
         "model": "openai/gpt-oss-20b",
         "messages": [
