@@ -28,6 +28,10 @@ app.add_middleware(
 def ping():
     return {"message": "pong"}
 
+@app.get("/")
+def ping():
+    return {"message": "Backend is running sucessfully!! 🚀"}
+
 
 @app.post("/upload")
 async def upload_resume(file: UploadFile = File(...)):
